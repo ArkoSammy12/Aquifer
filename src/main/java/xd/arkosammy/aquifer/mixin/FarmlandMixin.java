@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.At;
 @Mixin(FarmlandBlock.class)
 public class FarmlandMixin {
 
-    @ModifyReturnValue(method = "isWaterNearby", at = @At(value = "RETURN"))
+    @ModifyReturnValue(method = "isWaterNearby", at = @At(value = "TAIL"))
     private static boolean checkForWaterUnderneath(boolean original, @Local WorldView world, @Local BlockPos pos){
         boolean isWaterNearby = false;
         for(BlockPos blockPos : BlockPos.iterate(pos.add(-2, -1, -2), pos.add(2, -1, 2))){

@@ -28,7 +28,7 @@ public class SugarCaneBlockMixin {
         BlockPos underneathPos = pos.down().down();
         BlockState underneathBlock = world.getBlockState(underneathPos);
         FluidState underneathFluid = world.getFluidState(underneathPos);
-        return underneathFluid.isIn(FluidTags.WATER) || underneathBlock.isOf(Blocks.FROSTED_ICE);
+        return original || underneathFluid.isIn(FluidTags.WATER) || underneathBlock.isOf(Blocks.FROSTED_ICE);
     }
 
 }
