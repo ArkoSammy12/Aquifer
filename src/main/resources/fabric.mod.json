@@ -3,7 +3,7 @@
 	"id": "aquifer",
 	"version": "${version}",
 	"name": "Aquifer",
-	"description": "A simple Minecraft mod to allow blocks to be hydrated by water blocks below them.",
+	"description": "A simple Minecraft server-side Fabric mod to allow blocks to be hydrated by water blocks below them.",
 	"authors": [
 		"ArkoSammy12"
 	],
