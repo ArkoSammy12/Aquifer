@@ -20,11 +20,7 @@
 		]
 	},
 	"mixins": [
-		"aquifer.mixins.json",
-		{
-			"config": "aquifer.client.mixins.json",
-			"environment": "client"
-		}
+		"aquifer.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.3",
