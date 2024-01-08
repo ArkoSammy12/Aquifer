@@ -18,6 +18,9 @@ public class SugarCaneBlockMixin {
 
     @ModifyReturnValue(method = "canPlaceAt", at = @At(value = "TAIL"))
     private boolean checkForWaterUnderneathBlock(boolean original, @Local WorldView world, @Local BlockPos pos){
+        if(world.isClient()){
+           return original;
+        }
         BlockState groundBlock = world.getBlockState(pos.down());
         if(!groundBlock.isIn(BlockTags.DIRT) && !groundBlock.isIn(BlockTags.SAND)) {
             return original;
