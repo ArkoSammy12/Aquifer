@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "xd.arkosammy.aquifer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "FarmlandMixin",
+    "SugarCaneBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

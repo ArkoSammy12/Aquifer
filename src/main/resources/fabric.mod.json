@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "aquifer",
+	"version": "${version}",
+	"name": "Aquifer",
+	"description": "A simple Minecraft mod to allow blocks to be hydrated by water blocks below them.",
+	"authors": [
+		"ArkoSammy12"
+	],
+	"contact": {
+		"homepage": "https://github.com/ArkoSammy12",
+		"sources": "https://github.com/ArkoSammy12/Aquifer"
+	},
+	"license": "MIT",
+	"icon": "assets/aquifer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "xd.arkosammy.aquifer.Aquifer"
+		]
+	},
+	"mixins": [
+		"aquifer.mixins.json",
+		{
+			"config": "aquifer.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": ">=1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
