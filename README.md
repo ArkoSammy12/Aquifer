@@ -10,6 +10,10 @@ Farmland blocks can now be hydrated by water blocks below them, in a 2 block rad
 
 Grass, dirt, or sand blocks that have a block of water or frosted ice directly below them can now have sugarcane placed on them.
 
+## Compatibility 
+
+This mod supports [**Farmer's Delight's**](https://modrinth.com/mods) Rich Soil Farmland blocks to add to them the expanded water block checks.
+
 ## Support
 
 If you would like to report a bug, or make a suggestion, you can do so via the mod's [issue tracker](https://github.com/ArkoSammy12/Aquifer/issues) or join my [Discord server](https://discord.gg/UKr8n3b3ze).
