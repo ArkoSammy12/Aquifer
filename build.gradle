@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.4-SNAPSHOT'
+	id 'fabric-loom' version '1.6-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -50,8 +50,8 @@ dependencies {
 
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
 
-	// Farmer's delight
-	modCompileOnly("maven.modrinth:4EakbH8e:${project.farmersdelight_version_id}")
+	// Farmer's delight Refabricated
+	modCompileOnly("maven.modrinth:7vxePowz:${project.farmersdelight_refabricated_version_id}")
 }
 
 processResources {

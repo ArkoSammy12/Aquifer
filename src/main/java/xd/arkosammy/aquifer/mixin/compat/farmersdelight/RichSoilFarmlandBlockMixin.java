@@ -2,12 +2,12 @@ package xd.arkosammy.aquifer.mixin.compat.farmersdelight;
 
 import com.llamalad7.mixinextras.injector.ModifyReturnValue;
 import com.llamalad7.mixinextras.sugar.Local;
-import com.nhoryzon.mc.farmersdelight.block.RichSoilFarmlandBlock;
 import net.minecraft.registry.tag.FluidTags;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.WorldView;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
+import vectorwing.farmersdelight.common.block.RichSoilFarmlandBlock;
 
 @Mixin(RichSoilFarmlandBlock.class)
 public class RichSoilFarmlandBlockMixin {
