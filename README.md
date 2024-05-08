@@ -12,7 +12,7 @@ Grass, dirt, or sand blocks that have a block of water or frosted ice directly b
 
 ## Compatibility 
 
-This mod supports [**Farmer's Delight's**](https://modrinth.com/mods) Rich Soil Farmland blocks to add to them the expanded water block checks.
+This mod supports [**Farmer's Delight's**](https://modrinth.com/mod/farmers-delight-refabricated) Rich Soil Farmland blocks to add to them the expanded water block checks.
 
 ## Support
 
