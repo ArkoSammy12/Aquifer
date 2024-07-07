@@ -16,4 +16,4 @@ This mod supports [**Farmer's Delight's**](https://modrinth.com/mod/farmers-deli
 
 ## Support
 
-If you would like to report a bug, or make a suggestion, you can do so via the mod's [issue tracker](https://github.com/ArkoSammy12/Aquifer/issues) or join my [Discord server](https://discord.gg/wScNgcvJ3y).
+If you would like to report a bug, or make a suggestion, you can do so via the mod's [issue tracker](https://github.com/ArkoSammy12/Aquifer/issues).
